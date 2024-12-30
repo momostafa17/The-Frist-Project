@@ -1,0 +1,246 @@
+/* css reset  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* *::after *::before {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block0;
+}
+
+/* end css reset  */
+
+body {
+  font-family: "Tajawal", "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.coontiner {
+  width: 72%;
+  margin: 0 auto;
+  background-color: #ebebeb66;
+  color: #333333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-link:visited,
+.navigation-link:link {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:active {
+  color: #c23b3b;
+}
+
+.frist-section {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  background-image: url(imges/img/صورة\ واتساب\ بتاريخ\ 1446-06-27\ في\ 00.36.07_97a091c9.jpg);
+  background-size: cover;
+}
+
+.frist-section h1 {
+  margin-left: 15%;
+}
+
+
+.About-us {
+  font-size: 37px;
+  margin: 176px 0 0 10px;
+}
+
+.h3-our {
+  font-size: 50px;
+  margin: -50px 0 70px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10px;
+}
+
+.gen {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.gender {
+  margin-left: 340px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.gender-1 {
+  margin-left: 31vh;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.therd-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-bottom: 100px;
+}
+
+.fruit,
+.veg {
+  border: #757575 solid 1px;
+  border-radius: 85px;
+}
+
+
+.fruit:hover, .veg:hover {
+  border: #757575 solid 1px;
+  transition: .3s;
+  border-radius: 70px;
+}
+
+.subject-1,
+.subject-2,
+.subject-3 {
+  font-size: 33px;
+  margin: 179px 0;
+  margin-left: 10px;
+  line-height: 1.6;
+}
+
+.un {
+  margin-left: 30px;
+  list-style: square;
+}
+
+.fadi {
+  height: 100px;
+}
+
+.footer {
+  border-top: solid #cdcbcb 1px;
+  height: 420px;
+  background-color: #121c26;
+  color: white;
+  position: relative;
+}
+
+.footer h4 {
+  font-size: 40px;
+  padding-left: 20px;
+  margin: 10px 0 60px 0;
+}
+
+.social-media a {
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 3px;
+}
+
+.social-media {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  /* المسافة بين الأيقونة والنص */
+}
+
+.copy {
+  padding-left: 20px;
+  position: absolute;
+  top: 90%;
+}
+
+.owner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.owner a:hover {
+  text-decoration: none;
+  color: #212121;
+}
+
+.owner a:visited,
+.owner a:link {
+  color: #509fff;
+  text-decoration: none;
+}
+
+.owner a:hover,
+.owner a:active {
+  color: #ffffff;
+}
+
+
+/* start Certificates style  */
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: solid 1px;
+  margin-bottom: 30px;
+}
+
+.navigation-list2 {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.coontiner2 {
+  margin-top: 10px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ebebeb66;
+  color: #333333;
+}
+
+.coontiner2 h2 {
+
+  text-align: center;
+  margin: 20px 0;
+}
+
+.imges {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imges1 {
+  border-right: 5px solid;
+}
+
+.imges2 {
+  border-left: 5px solid;
+}
+
+/* end Certificates */
