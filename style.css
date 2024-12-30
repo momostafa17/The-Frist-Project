@@ -32,6 +32,11 @@ body {
   align-items: center;
   padding: 10px 20px;
   background-color: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  border-bottom: 1px solid;
 }
 
 .navigation-list {
